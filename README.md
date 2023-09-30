@@ -17,7 +17,7 @@ This project provides insights to top level management in Consumer Goods Domain.
   <li><h4>Microsoft Power BI</h2></li>
   </ul>
   <hr>
-  <h3>Objective : Provide Insights to Management in Consumer Goods Domain</h3>
+  <h1>Objective : Provide Insights to Management in Consumer Goods Domain</h1>
   <h3>Problem Statement</h3>
   <p>Atliq Hardwares (imaginary company) is one of the leading computer hardware producers in India and well expanded in other
   countries too.However, the management noticed that they do not get enough insights to make quick and smart data-informed decisions.
