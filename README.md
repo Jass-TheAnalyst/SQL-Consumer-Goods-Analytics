@@ -1,6 +1,7 @@
 # SQL-Project-Consumer-Goods-Analytics
 This project provides insights to top level management in Consumer Goods Domain.
-![alt text](https://github.com/Jass-TheAnalyst/SQL-Consumer-Goods-Analytics/blob/main/Consumer%20Goods%20Domain%20Image.png)
+<img src="https://github.com/Jass-TheAnalyst/SQL-Consumer-Goods-Analytics/blob/main/Consumer%20Goods%20Domain%20Image.png" alt="fmcg" height="400" width="1000">
+
 <ul>
   <li><b>Title</b>&nbsp:&nbspData Analytics using SQL
   <li><b>Created By</b>&nbsp:&nbspJasleen Kaur
