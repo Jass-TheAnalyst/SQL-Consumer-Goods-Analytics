@@ -38,7 +38,7 @@ This project provides insights to top level management in Consumer Goods Domain.
 
 <h3>Table Wise Description</h3>
   <h3>Column Description for dim_customer table:</h3>
-<ol>
+<ul>
   <li>customer_code: The 'customer_code' column features unique identification codes for every customer in the dataset. These codes can be used to track a customer's sales 		history, demographic information, and other relevant details. For example, the codes could look like '70002017', '90005160', and '80007195' respectively.
 </li>
   <li>customer: The 'customer' column lists the names of customers, for example 'Atliq Exclusive', 'Flipkart', and 'Surface Stores' etc.</li>
@@ -48,7 +48,7 @@ This project provides insights to top level management in Consumer Goods Domain.
 <li>region: The 'region' column categorizes countries according to their geographic location, including "APAC" (Asia Pacific), "EU" (Europe), "NA" (North America), and 			    "LATAM" (Latin America).</li>
 <li>sub_zone: "The 'sub_zone' column further breaks down the regions into sub-regions, such as "India", "ROA" (Rest of Asia), "ANZ" (Australia and New Zealand), "SE" 				  Southeast Asia), "NE" (Northeast Asia), "NA" (North America), and "LATAM" (Latin America)."</li>
 
-</ol>
+</ul>
   
   <h3>SQL Functions Used</h3>
   <ul>
