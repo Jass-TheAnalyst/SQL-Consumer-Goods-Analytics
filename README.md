@@ -1,6 +1,5 @@
 # SQL-Project-Consumer-Goods-Analytics
 This project provides insights to top level management in Consumer Goods Domain.
-<img src="https://github.com/Jass-TheAnalyst/SQL-Consumer-Goods-Analytics/blob/main/Consumer%20Goods%20Domain%20Image.png" alt="consumer-goods-img" height="400" width="1000">
 
 <ul>
   <li><b>Title</b>&nbsp:&nbspData Analytics using SQL
@@ -36,6 +35,20 @@ This project provides insights to top level management in Consumer Goods Domain.
 <li> fact_pre_invoice_deductions: contains pre-invoice deductions information for each product</li>
 <li> fact_sales_monthly: contains monthly sales data for each product.</li>
  </ul> 
+
+<h3>Table Wise Description</h3>
+  <h3>Column Description for dim_customer table:</h3>
+<ol>
+  <li>customer_code: The 'customer_code' column features unique identification codes for every customer in the dataset. These codes can be used to track a customer's sales 		history, demographic information, and other relevant details. For example, the codes could look like '70002017', '90005160', and '80007195' respectively.
+</li>
+  <li>customer: The 'customer' column lists the names of customers, for example 'Atliq Exclusive', 'Flipkart', and 'Surface Stores' etc.</li>
+  <li> platform: The 'platform' column identifies the means by which a company's products or services are sold. "Brick & Mortar" represents the physical store/location, and 			"E-Commerce" represents online platforms.</li>
+  <li>channel: The 'channel' column reflects the distribution methods used to sell a product. These methods include "Retailers", "Direct", and "Distributors". Retailers 				refer to physical or online stores that sell products to consumers. Direct sales refer to sales made directly to consumers through a company's website or other direct means, and distributors refer to intermediaries or middlemen between the manufacturer and retailer or end consumers.</li>
+<li>market: The 'market' column lists the countries in which the customer is located.</li>
+<li>region: The 'region' column categorizes countries according to their geographic location, including "APAC" (Asia Pacific), "EU" (Europe), "NA" (North America), and 			    "LATAM" (Latin America).</li>
+<li>sub_zone: "The 'sub_zone' column further breaks down the regions into sub-regions, such as "India", "ROA" (Rest of Asia), "ANZ" (Australia and New Zealand), "SE" 				  Southeast Asia), "NE" (Northeast Asia), "NA" (North America), and "LATAM" (Latin America)."</li>
+
+</ol>
   
   <h3>SQL Functions Used</h3>
   <ul>
@@ -57,3 +70,4 @@ This project provides insights to top level management in Consumer Goods Domain.
   
   
   
+/
