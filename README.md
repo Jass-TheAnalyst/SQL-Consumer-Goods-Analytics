@@ -16,7 +16,7 @@ This project provides insights to top level management in Consumer Goods Domain.
   <li><h4>MySQL Workbench</h2></li>
   <li><h4>Microsoft Power BI</h2></li>
   </ul>
-  
+  <hr>
   <h3>Objective : Provide Insights to Management in Consumer Goods Domain</h3>
   <h3>Problem Statement</h3>
   <p>Atliq Hardwares (imaginary company) is one of the leading computer hardware producers in India and well expanded in other
@@ -25,7 +25,7 @@ This project provides insights to top level management in Consumer Goods Domain.
   wanted to hire someone who is good at both tech and soft skills. Hence, he decided to conduct a SQL challenge which will 
   help him understand both the skills.
 </p>
-    
+    <hr>
   <h3>Comprehensive overview of the tables present in database. It includes information for six main tables:</h3>
 <ul>
 <li> dim_customer: contains customer-related data</li>
@@ -35,7 +35,7 @@ This project provides insights to top level management in Consumer Goods Domain.
 <li> fact_pre_invoice_deductions: contains pre-invoice deductions information for each product</li>
 <li> fact_sales_monthly: contains monthly sales data for each product.</li>
  </ul> 
-
+<hr>
 <h3>Table Wise Description</h3>
   <h3>Column Description for dim_customer table:</h3>
 <ul>
@@ -62,6 +62,55 @@ This project provides insights to top level management in Consumer Goods Domain.
 <li><b>variant:</b>The "variant" column classifies products according to their features, prices, and other characteristics. The column includes variants such as "Standard", 				"Plus", "Premium" that represent different versions of the same product.</li>
 </ul>
 
+<h3>Column Description for fact_gross_price table:</h3>
+<ul>
+<li><b>product_code:</b>The 'product_code' column features unique identification codes for each product.</li>
+<li><b>fiscal_year:</b>The 'fiscal_year' column contains the fiscal period in which the product sale was recorded. A fiscal year is a 12-month period that is used for accounting 			purposes and often differs from the calendar year. For Atliq Hardware, the fiscal year starts in September. The data available in this column covers the 				fiscal years 2020 and 2021.</li>
+<li><b>gross_price</b>The 'gross_price' column holds the initial price of a product, prior to any reductions or taxes. It is the original selling price of the product.
+</li>
+</ul>
+
+<h3>Column Description for fact_manufacturing_cost:
+</h3>
+<ul>
+<li><b>product_code:</b>The 'product_code' column features unique identification codes for each product.
+</li>
+<li><b> cost_year:</b>The "cost_year" column contains the fiscal year in which the product was manufactured.</li>
+<li><b>manufacturing_cost:</b>The "manufacturing_cost" column contains the total cost incurred for the production of a product. This cost includes direct costs like
+raw materials, labor, and overhead expenses that are directly associated with the production process.
+</li>
+</ul>
+
+ 
+<h3>Column Description for fact_pre_invoice_deductions:
+</h3>
+<ul>
+<li><b>customer_code:</b>The 'customer_code' column features unique identification codes for every customer in the dataset. These codes can be used to track a customer's sales 			history, demographic information, and other relevant details. For example, the codes could look like '70002017', '90005160', and '80007195' respectively.</li>
+<li><b>fiscal_year:</b>The "fiscal_year" column holds the fiscal period when the sale of a product occurred.
+</li>
+<li><b>pre_invoice_discount_pct:</b>The "pre_invoice_discount_pct" column contains the percentage of pre-invoice deductions for each product. Pre-invoice deductions are 
+discounts that are applied to the gross price of a product before the invoice is generated, and typically applied to large orders or 							     long-term contracts.
+</li>
+
+</ul>
+ 
+<h3>Column Description for fact_sales_monthly:
+</h3>
+<ul>
+<li><b>date:</b>The "date" column contains the date when the sale of a product was made, in a monthly format for 2020 and 2021 fiscal years. This information can be used
+to understand the sales performance of products over time.</li>
+<li><b>product_code:</b>The "product_code" column contains a unique identification code for each product. This code is used to track and differentiate individual 
+products within a database or system.
+</li>
+<li><b>customer_code:</b></li>
+<li><b>The 'customer_code' column features unique identification codes for every customer in the dataset. These codes can be used to track a customer's sales 			history, demographic information, and other relevant details. For example, the codes could look like '70002017', '90005160', and '80007195' respectively.
+</b></li>
+<li><b>sold_quantity:</b>The "sold_quantity" column contains the number of units of a product that were sold. This information can be used to understand the sales volume ofproducts and to compare the sales volume of different products or variants.
+</li>
+<li><b>fiscal_year: </b>The "fiscal_year" column holds the fiscal period when the sale of a product occurred.
+</li>
+</ul>
+<hr>
   
   <h3>SQL Concepts Used</h3>
   <ul>
@@ -78,7 +127,7 @@ This project provides insights to top level management in Consumer Goods Domain.
   <li>SQL Basics (SELECT, WHERE, BETWEEN, GROUP BY, ORDER BY, etc.)</li>
   </ul>
   
-  
+  <hr>
   
   
   
