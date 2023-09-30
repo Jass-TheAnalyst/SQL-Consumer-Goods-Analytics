@@ -1,6 +1,6 @@
 # SQL-Project-Consumer-Goods-Analytics
 This project provides insights to top level management in Consumer Goods Domain.
-<img src="https://github.com/Jass-TheAnalyst/SQL-Consumer-Goods-Analytics/blob/main/Consumer%20Goods%20Domain%20Image.png" alt="gender-equality-img" height="400" width="1000">
+<img src="https://github.com/Jass-TheAnalyst/SQL-Consumer-Goods-Analytics/blob/main/Consumer%20Goods%20Domain%20Image.png" alt="consumer-goods-img" height="400" width="1000">
 
 <ul>
   <li><b>Title</b>&nbsp:&nbspData Analytics using SQL
@@ -19,7 +19,7 @@ This project provides insights to top level management in Consumer Goods Domain.
   </ul>
   
   <h3>Objective : Provide Insights to Management in Consumer Goods Domain</h3>
-  <h2>Problem Statement</h2>
+  <h3>Problem Statement</h3>
   <p>Atliq Hardwares (imaginary company) is one of the leading computer hardware producers in India and well expanded in other
   countries too.However, the management noticed that they do not get enough insights to make quick and smart data-informed decisions.
   They want to expand their data analytics team by adding several junior data analysts. Tony Sharma, their data analytics director 
@@ -27,7 +27,7 @@ This project provides insights to top level management in Consumer Goods Domain.
   help him understand both the skills.
 </p>
     
-  <h3>Comprehensive overview of the tables found in database. It includes information for six main tables:</h3>
+  <h3>Comprehensive overview of the tables present in database. It includes information for six main tables:</h3>
 <ul>
 <li> dim_customer: contains customer-related data</li>
 <li> dim_product: contains product-related data</li>
