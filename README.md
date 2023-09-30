@@ -10,7 +10,7 @@ This project provides insights to top level management in Consumer Goods Domain.
  
  <hr>
  
- <h1>SQL - Microsoft Excel Integration Project</h1>
+ <h1>SQL - Microsoft Power BI Integration Project</h1>
  <h3>Database, Database Tool and Visualization Tool</h3>
  <ul>
   <li><h4>MySQL</h2></li>
@@ -27,7 +27,7 @@ This project provides insights to top level management in Consumer Goods Domain.
   help him understand both the skills.
 </p>
     
-  <h3>Comprehensive overview of the tables found in database. It includes information for six main tables:
+  <h3>Comprehensive overview of the tables found in database. It includes information for six main tables:</h3>
 <ul>
 <li> dim_customer: contains customer-related data</li>
 <li> dim_product: contains product-related data</li>
