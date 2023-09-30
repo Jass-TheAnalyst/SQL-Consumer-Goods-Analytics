@@ -49,8 +49,21 @@ This project provides insights to top level management in Consumer Goods Domain.
 <li><b>sub_zone:</b> "The 'sub_zone' column further breaks down the regions into sub-regions, such as "India", "ROA" (Rest of Asia), "ANZ" (Australia and New Zealand), "SE" 				  Southeast Asia), "NE" (Northeast Asia), "NA" (North America), and "LATAM" (Latin America)."</li>
 
 </ul>
+
+<h3>Column Description for dim_product table:</h3>
+<ul>
+<li><b>product_code:</b>The 'product_code' column features unique identification codes for each product, serving as a means to track and distinguish individual products within a 		database or system.</li>
+<li><b>division:</b>The 'division' column categorizes products into groups such as "P & A" (Peripherals and Accessories), "N & S" (Network and Storage) and "PC" (Personal 				 Computer).</li>
+<li><b>segment:</b>The 'segment' column categorizes products further within the division, such as "Peripherals" (keyboard, mouse, monitor, etc.), "Accessories" (cases, cooling 			solutions, power supplies), "Notebook" (laptops), "Desktop" (desktops, all-in-one PCs, etc), "Storage" (hard disks, SSDs, external storage), and "Networking" (routers, switches, modems, etc.).</li>
+<li><b>category:</b>The 'category' column classifies products into specific subcategories within the segment.
+</li>
+<li><b>product:</b>The 'product' column lists the names of individual products, corresponding to the unique identification codes found in the 'product_code' column.
+</li>
+<li><b>variant:</b>The "variant" column classifies products according to their features, prices, and other characteristics. The column includes variants such as "Standard", 				"Plus", "Premium" that represent different versions of the same product.</li>
+</ul>
+
   
-  <h3>SQL Functions Used</h3>
+  <h3>SQL Concepts Used</h3>
   <ul>
   <li>DDL</li>
   <li>DML</li>
@@ -70,4 +83,4 @@ This project provides insights to top level management in Consumer Goods Domain.
   
   
   
-/
+
