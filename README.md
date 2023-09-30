@@ -1,6 +1,6 @@
 # SQL-Project-Consumer-Goods-Analytics
 This project provides insights to top level management in Consumer Goods Domain.
-<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Finsideretail.asia%2Ftag%2Ftechnical-consumer-goods%2F&psig=AOvVaw3sTB0uGrZN930Y3kEY7U6S&ust=1696175713437000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCOiSt4vZ0oEDFQAAAAAdAAAAABAD" alt="fmcg" height="400" width="1000">
+<img src="https://insideretail.asia/wp-content/uploads/2020/09/technicalconsumergoods.jpg" alt="fmcg" height="400" width="1000">
 
 <ul>
   <li><b>Title</b>&nbsp:&nbspData Analytics using SQL
